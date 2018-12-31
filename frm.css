@@ -1,0 +1,119 @@
+form
+{
+	font-size: 25px;
+	color: #060;
+	text-align: center;
+}
+
+h3
+{
+	text-align: center;
+	color: #060;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+/* text field */
+.txtfield
+{
+	height: 45px;
+	width: 400px;
+	border-color: #090;
+	border-radius: 10px;
+	border-width:3px; 
+	font-size: 20px;
+	color: #060;
+ 	text-align: center;
+}
+/* textarea */
+textarea
+{
+	height: 100px;
+	width: 600px;
+	border-color:#090;
+	border-radius: 5px;
+	border-width:2px;
+	font-size:20px; 
+ 	color: #060;
+ 	text-align: center;
+}
+/* drop down menu */
+select
+{
+	height: 35px;
+	width: 230px;
+	border-color: #090;
+ 	border-width:2px;
+ 	font-size:20px; 
+ 	color: #060;
+ 	text-align: center;
+ 	border-radius: 5px;
+}
+/* number fields */
+.numfield
+{
+	height: 40px;
+	width: 200px;
+	border-color: #090;
+	border-radius: 10px;
+	border-width:2px; 
+	font-size: 20px;
+	color: #060;
+ 	text-align: center;
+}
+.numfield1
+{
+	height: 30px;
+	width: 100px;
+	border-color: #090;
+	border-radius: 5px;
+	border-width:2px; 
+	font-size: 20px;
+	color: #060;
+ 	text-align: center;
+}
+/* focus and hover */
+.txtfield:hover,textarea:hover,.numfield:hover,.numfield1:hover,select:hover
+{
+	box-shadow:4px 4px 4px 4px #080;
+}
+
+.txtfield:focus,textarea:focus,.numfield:focus,.numfield1:focus
+{
+	border-bottom-width :5px;
+	border-bottom-color: #0001ff;
+}
+
+/* button */
+.btn
+{
+	width:150px;
+	height:45px;
+	border-radius:10px; 
+	font-size:20px;
+	color: #060;
+	border-color: #090;
+	border-width:3px;
+	box-shadow: 0px 0px 2px 2px;
+}
+.btn 
+{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.btn:hover, .btn:focus, .btn:active 
+{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow:0px 0px 2px 2px #080;
+}
